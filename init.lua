@@ -198,3 +198,8 @@ local Draw =
         Monospace = 3
     }
 }
+getgenv().Drawing = Draw
+getgenv().getrenderproperty = nil
+getgenv().setrenderproperty = nil
+getgenv().createrenderobject = nil
+getgenv().destroyrenderobject = nil
